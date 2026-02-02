@@ -55,8 +55,8 @@ Do the following:
 
 ```py
 names = np.array(["Ana", "Ben", "Chen", "Dana", "Eli", "Fatima", "George", "Hui"])
-spend = np.array()      # marketing spend
-revenue = np.array()   # revenue
+spend = np.array([200, 150, 300, 120, 180, 220, 160, 310])      # marketing spend
+revenue = np.array([400, 180, 500, 100, 220, 260, 150, 600])   # revenue
 ```
 
 1. Compute the **ROI** for each person: `roi = revenue / spend`.  
@@ -79,11 +79,11 @@ students = np.array(["S1", "S2", "S3", "S4", "S5"])
 subjects = np.array(["Math", "Stats", "Python"])
 
 scores = np.array([
-    ,
-    ,
-    ,
-    ,
-    
+    [75, 80, 85],
+    [60, 65, 70],
+    [90, 88, 92],
+    [82, 79, 84],
+    [70, 72, 78]
 ])
 ```
 
